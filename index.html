@@ -5,86 +5,141 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catarina Torres</title>
+    <meta name="description" content="Portofolio app's & inspiration by portuguese developer, Catarina Torres" />
+    <title>Catarina Torres: My.Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Catarina Torres</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/" title="Home">Catarina Torres</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a
+                        <a class="nav-link active" aria-current="page" href="/" title="Home">Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html#contact">Contact me</a>
-                    </li>
-                </ul>
-            </div>
+              <a class="nav-link" href="/about.html" title="About Catarina"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Contact Catarina"
+                >Contact me</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <h2 class="text-center">Hi I am</h2>
-    <h1 class="text-center">Catarina Torres</h1>
-    <h3 class="text-center">Front-end developer, based in Portugal</h3>
+    <h2>👋 Hi I am</h2>
+    <h1>Catarina Torres: MyPortfolio</h1>
+    <h3>Front-end developer, based in Portugal</h3>
     <div class="navigation-links">
-        <a href="about.html#contact" class="primary-link">Contact me</a>
-        <a href="about.html" class="secondary-link">About me</a>
+      <a
+        href="/about.html#contact"
+        class="contact-link"
+        title="Contact Catarina"
+        >Contact me</a
+      >
+      <a href="/about.html" class="about-link" title="About Catarina"
+        >About me</a
+      >
     </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="images/yoga.png" alt="Yoga app" class="img-fluid rounded" />
-            </div>
-            <div class="col-sm-6">
-                <h2 class="mb-3">Yoga app</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.
-                </p>
-                <div class="mt-5">
-                    <a href="#" class="primary-link">Launch yoga app</a>
-                </div>
-            </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 img-surround">
+          <img
+            src="/images/yoga.png"
+            class="img-fluid rounded"
+            alt="Screenshot
+          of Yoga App"
+          />
         </div>
-        <div class="row mt-5">
-            <div class="col-sm-6">
-                <h2 class="mb-3">Weather app</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.
-                </p>
-                <div class="mt-5">
-                    <a href="#" class="primary-link">Launch weather app</a>
-                </div>
-            </div>
-            <div class="col-sm-6 mt-5">
-                <img src="images/weather.png" alt="Weather app" class="img-fluid rounded" />
-            </div>
+        <div class="col-md-6">
+          <h2>Yoga App</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="navigation-links">
+            <a
+              href="#"
+              class="contact-link justify-center"
+              title="Launch Yoga App"
+              >Launch Yoga App</a
+            >
+          </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-sm-6">
-                <img src="images/yogurt.png" alt="Yogurt app" class="img-fluid rounded" />
-            </div>
-            <div class="col-sm-6">
-                <h2 class="mb-3">Yogurt app</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.
-                </p>
-                <div class="mt-5">
-                    <a href="#" class="primary-link">Launch yogurt app</a>
-                </div>
-            </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h2>Weather app</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="navigation-links">
+            <a
+              href="#"
+              class="contact-link justify-center"
+              title="Launch Weather App"
+              >Launch Weather App</a
+            >
+          </div>
         </div>
+        <div class="col-md-6 img-surround">
+          <img
+            src="/images/weather.png"
+            class="img-fluid rounded"
+            alt="Screenshot of Weather App"
+          />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 img-surround">
+          <img
+            src="/images/yogurt.png"
+            class="img-fluid rounded"
+            alt="Screenshot of Yogurt App"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2>Yogurt app</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="navigation-links">
+            <a
+              href="#"
+              class="contact-link justify-center"
+              title="Launch Yogur App"
+              >Launch Yogurt App</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
