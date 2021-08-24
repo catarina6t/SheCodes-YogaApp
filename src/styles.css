@@ -59,6 +59,10 @@ p {
 
 .navigation-links a {
     margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 .primary-link {
