@@ -18,9 +18,18 @@ h1 {
     font-size: 96px;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 576px) {
     h1 {
-        font-size: 80px;
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
     }
 }
 
